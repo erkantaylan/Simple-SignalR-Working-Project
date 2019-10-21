@@ -1,0 +1,32 @@
+<Window x:Class="WpfApplication1.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:viewModels="clr-namespace:WpfApplication1.ViewModels"
+        xmlns:mvvm="http://prismlibrary.com/"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance viewModels:ShellViewModel}"
+        mvvm:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Path=Title}"
+        Height="450"
+        Width="800">
+    <StackPanel>
+        <TextBox x:Name="txtConnectionUrl"
+                 Margin="5"
+                 Padding="5"/>
+        <Button Content="Connect"
+                Command="{Binding Path=ConnectCommand}"
+                CommandParameter="{Binding ElementName=txtConnectionUrl, Path=Text}"
+                Margin="5"
+                Padding="5"/>
+        <TextBox x:Name="txtMessage"
+                 Margin="5"
+                 Padding="5"/>
+        <Button Content="Send Message"
+                Margin="5"
+                Padding="5"
+                Command="{Binding Path=SendMessageCommand}"
+                CommandParameter="{Binding ElementName=txtMessage, Path=Text}"/>
+    </StackPanel>
+</Window>

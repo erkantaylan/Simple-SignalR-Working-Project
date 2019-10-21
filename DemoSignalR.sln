@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{98787BCE-D273-46EB-8E3A-3EB9A88F8993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "WpfApplication1\WpfApplication1.csproj", "{BEA7691B-6F19-43AD-B106-DB7731F3AAAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98787BCE-D273-46EB-8E3A-3EB9A88F8993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98787BCE-D273-46EB-8E3A-3EB9A88F8993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98787BCE-D273-46EB-8E3A-3EB9A88F8993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98787BCE-D273-46EB-8E3A-3EB9A88F8993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA7691B-6F19-43AD-B106-DB7731F3AAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA7691B-6F19-43AD-B106-DB7731F3AAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA7691B-6F19-43AD-B106-DB7731F3AAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA7691B-6F19-43AD-B106-DB7731F3AAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
